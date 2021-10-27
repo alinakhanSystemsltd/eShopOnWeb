@@ -1,2 +1,1 @@
-bat "dotnet restore ${workspace}\\eShopOnWeb.sln"
-bat "dotnet build eShopOnWeb.sln  --configuration Release"
+restore ${workspace}\\eShopOnWeb.sln"
