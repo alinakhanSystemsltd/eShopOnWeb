@@ -1,1 +1,1 @@
-restore ${workspace}\\eShopOnWeb.sln"
+tar -xvzf C:/app.tar.gz 
