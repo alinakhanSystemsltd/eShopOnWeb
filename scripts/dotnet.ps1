@@ -1,1 +1,1 @@
-tar -xvzf C:\DotNetFolder\dotnetapp.tar.gz 
+tar -xvzf C:/dotnetapp.tar.gz -C C:/DotNetFolder
