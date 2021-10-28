@@ -10,3 +10,4 @@ $file | Rename-Item -NewName testcoverage.coverage
 $renamedFile = Get-ChildItem -Path "C:/DotNetFolder/BuildReports/*/*.coverage" 
 Copy-Item $renamedFile -Destination $destinationFolder
 & "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Team Tools/Dynamic Code Coverage Tools/CodeCoverage.exe" analyze /output:C:/DotNetFolder/BuildReports/xmlresults.coveragexml  C:/DotNetFolder/BuildReports/testcoverage.coverage
+C:/ReportGenerator/net5.0/ReportGenerator.exe -reports:C:/DotNetFolder/BuildReports/xmlresults.coveragexml -targetdir:C:/DotNetFolder/BuildReports/CodeCoverageFinal
